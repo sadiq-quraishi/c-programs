@@ -1,0 +1,19 @@
+/* wap to calculate simple interest */
+
+#include <stdio.h>
+#include <conio.h>
+
+main ()
+{
+int p,n,r;
+
+float si;
+
+printf ("enter p,n,r");
+
+scanf ("%d %d %d",&p,&n,&r);
+
+si = (p*n*r)/100;
+
+printf ("\n simple interest is %f",si);
+}
