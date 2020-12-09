@@ -1,0 +1,20 @@
+/* wap to accept product number , name ,rate, quantity and calculate that amount of product
+and print product number ,name and amount */
+
+# include <stdio.h>
+# include <conio.h>
+
+main()
+{
+    
+int product_no ;
+char name[35];
+float rate,quantity,amt;
+
+printf ("please enter product number and name ,rate ,quantity");
+scanf ("%d %s %f %f",&product_no,&name,&rate,&quantity);
+
+amt = rate * quantity;
+
+printf ("product number = %d name = %s amount = %f ",product_no,name,amt);
+}
