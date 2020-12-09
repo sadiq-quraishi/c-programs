@@ -1,0 +1,16 @@
+/* wap to find addition of two numbers */
+
+# include <stdio.h>
+# include <conio.h>
+
+main()
+{
+    int a,b;
+    int c;
+    
+    printf ("please enter a b values");
+    scanf ("%d %d",&a,&b);
+     c = a + b;
+     printf ("addition of two numbers %d",c);
+    
+}
