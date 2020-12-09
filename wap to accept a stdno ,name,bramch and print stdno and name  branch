@@ -1,0 +1,18 @@
+/* wap to accept a stdno ,name,bramch and print stdno and name ,branch */
+
+#include <stdio.h>
+#include <conio.h>
+
+main ()
+{
+ 
+ int stdno;
+ char name[35],branch[10];
+ 
+ printf ("enter stdno,name,branch");
+ 
+ scanf ("%d %s %s",&stdno,&name,&branch);
+ 
+ printf ("stdno = %d name = %s  branch = %s",stdno,name,branch);
+ 
+}
