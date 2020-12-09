@@ -1,0 +1,16 @@
+/* wap to find the area of circle */
+
+# include <stdio.h>
+# include <conio.h>
+
+main()
+{
+ float radius,area;
+ 
+printf ("please enter radius of a circle");
+
+scanf ("%f",&radius);
+   area = 3.14 * radius * radius;
+   
+   printf ("\n area of the circle is %f",area);
+}
