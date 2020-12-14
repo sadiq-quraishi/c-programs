@@ -1,0 +1,43 @@
+
+#include <stdio.h>
+#include <conio.h>
+
+main ()
+{
+
+  int i, j, num,p,q;
+
+  printf ("please enter a number");
+
+  scanf ("%d", &num);
+
+  for (i = 1; i <= num; i++)
+    {
+
+      for (j = num; j >= i; j--)
+	{
+
+	  printf ("*");
+	}
+
+
+      printf ("\n");
+
+    }
+
+ for (p = 1; p <= num; p++)
+    {
+
+      for (q = 1; q <= p; q++)
+	{
+
+	  printf ("*");
+	}
+
+
+      printf ("\n");
+
+    }
+  return 0;
+
+}
